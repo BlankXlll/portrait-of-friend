@@ -1,0 +1,148 @@
+void setup(){
+  size(800,800);
+  background(#FFD8E6);
+  
+}
+
+void draw(){
+   
+  smooth();
+  noStroke();
+  fill(#9D8888);
+  ellipse(400,300,400,500);//hair
+  
+  noStroke();
+  fill(#827272);
+  rect(200,300,400,600);//hairback
+  
+  noStroke();
+  fill(#9D8888);
+  rect(200,300,60,600);//hair-left
+  
+  noStroke();
+  fill(#9D8888);
+  rect(540,300,60,600);//hair-right
+  
+  smooth();
+  noStroke();
+  fill(#EA89AD);
+  ellipse(400,830,550,600);//body
+  
+  noStroke();
+  fill(#F5EEEB);
+  rect(325,365,150,200);//neck
+  
+  noStroke();
+  fill(#F5EEEB);
+  ellipse(400,565,150,150);//neck
+  
+  noStroke();
+  fill(#FFF8F5);
+  ellipse(400,310,300,400);//face
+  
+  //noStroke();
+  //fill(#9D8888);
+  //pushMatrix();
+  //translate(297,169);
+  //rotate(radians(41));
+  //ellipse(0,0,100,224); //left-bangs
+  //popMatrix();
+  
+  noStroke();
+  fill(#9D8888);
+  pushMatrix();
+  translate(468,166);
+  rotate(radians(129));
+  ellipse(0,0,139,258);//right-bangs
+  popMatrix();
+  
+  noStroke();
+  fill(#9D8888);
+  ellipse(220,495,25,400);//left-hair-1
+  
+  noStroke();
+  fill(#9D8888);
+  ellipse(250,485,33,550);//left-hair-2
+  
+  noStroke();
+  fill(#9D8888);
+  ellipse(540,450,25,600);//right-hair-1
+  
+  noStroke();
+  fill(#9D8888);
+  ellipse(580,450,33,500);//right-hair4-2
+  
+  stroke(#2C2628);
+  strokeWeight(10);
+  fill(#2C2628,240);
+  ellipse(322,300,120,120); //sunglasses-leftlence-style-1
+  
+  stroke(#2C2628);
+  strokeWeight(13);
+  fill(#2C2628);
+  triangle(262+2,240+2,292+2,240+2,262+2,270+2);//left-triangle-black
+  
+  noStroke();
+  fill(#FAE22B);
+  triangle(262+3,240+3,277+3,240+3,262+3,255+3);//left-triangle-yellow
+  
+  
+  stroke(#2C2628);
+  strokeWeight(10);
+  fill(#2C2628,240);
+  ellipse(474,300,120,120); //sunglasses-rightlence-style-1
+  
+  stroke(#2C2628);
+  strokeWeight(13);
+  fill(#2C2628);
+  triangle(534-2,240+2,504-2,240+2,534-2,270+2);//right-triangle-black
+  
+  noStroke();
+  fill(#FAE22B);
+  triangle(534-3,240+3,519-3,240+3,534-3,255+3);//right-triangle-yellow
+  
+  stroke(#2C2628);
+  strokeWeight(10);
+  line(388,290,412,290);//glasses-middle
+  
+  //noStroke();
+  //fill(#EADDD7);
+  //ellipse(400,393,27,10);//nose shadow-style-1
+  
+  //stroke(#EADDD7);
+  //strokeWeight(5);
+  //fill(#FFF8F5);
+  //arc(400,388,35,20,radians(21),radians(159));//nose shadow-style-3
+  
+  stroke(255);
+  strokeWeight(5);
+  line(395,320,395,360);//height light-1
+  
+  noStroke();
+  fill(255);
+  ellipse(395,372,5,5);//height light-2
+  
+  noStroke();
+  fill(#EADDD7);
+  pushMatrix();
+  translate(387,390);
+  rotate(radians(20));
+  ellipse(0,0,12,5);//nose shadow-style-2-left
+  popMatrix();
+  
+  noStroke();
+  fill(#EADDD7);
+  pushMatrix();
+  translate(413,390);
+  rotate(radians(-20));
+  ellipse(0,0,12,5);//nose shadow-style-2-right
+  popMatrix();
+  
+  
+  
+  stroke(#FFD8E6);
+  strokeWeight(7);
+  line(370,440,430,440);
+  
+  
+}
